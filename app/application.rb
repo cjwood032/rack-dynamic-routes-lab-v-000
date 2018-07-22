@@ -11,7 +11,7 @@ class Application
       end
     else
         resp.status = 400
-        res.write "Item not found"
+        resp.write "Item not found"
     end
       resp.finish
   end
